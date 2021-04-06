@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+h2 {
+    text-align: center;
+    color: #201F1E;
+    padding-bottom: 40px;
+}
+h3 {
+    text-align: center;
+    color: #201F1E;
+    padding: 50px 0;
+}
+
+.card-img-top {
+    height: 180px;
+}
+header, footer {
+    background-color: #201F1E;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+main {
+    margin-top: 70px;
+}
+.navbar-brand img {
+    width: 50px;
+}
+
+.jumbotron {
+    width: 100%;
+    background-image: url(https://i.gifer.com/XTZK.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.jumbotron h1 {
+    color: lightgrey;
+    font-weight: 700;
+}
+
+.jumbotron a {
+    margin: 15px 0;
+}
+section {
+    padding-top: 40px;
+}
+.carousel-item img {
+    height: 600px;
+    overflow-y: hidden;
+}
+
+footer img {
+    width: 200px;
+}
+footer ul {
+    width: 100%;
+}
+footer li {
+    color: lightgrey;
+}
+footer h6 {
+    color: lightgrey;
+}
+footer li a {
+    color: lightgrey;
+    font-size: 20px;
+    padding: 5px;
+}
+footer li a:hover {
+    color: grey;
+}
+
+.details {
+    height: 500px;
+    overflow-y: scroll;
+    margin: 10px 5px;
+}
+
+.form {
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .jumbotron {
+        background-image: url(../img/Spina\ birra.gif);
+        background-size: cover;
+        background-position: center;
+    }
+    .card {
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+    .carousel {
+        display: none;
+    }
+
+    .copyright {
+        margin: auto;
+    }
+    .contacts {
+        margin: auto;
+    }
+  }
+
+
